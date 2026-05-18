@@ -1,0 +1,12 @@
+/build/
+/lake-packages/
+/.lake/
+
+lakefile.olean
+lakefile.olean.trace
+
+.DS_Store
+
+*~
+*.swp
+*.swo
