@@ -1,0 +1,9 @@
+Your task is formally prove the theorem about polygon intersection by filling in Polygons2/PolgonIntersection2Proof.lean. You are not allowed to change Polygons2/PolgonIntersection2.lean, Polygons2/PolgonIntersection2Defs.lean. Do not give up until there are not more sorries in this development and everything compiles. Axioms and admits are not allowed.
+
+Construct the intersection polygon and prove that it satisfies the spec.
+
+You can and should use subagents, but if you do, always give separate, well defined tasks to subagents that are each much much smaller than your task, never give a subagent multiple tasks, never ask a subagent to finish the rest of your work for you, but split your work into small well defined sequential subtasks. If you use subagents, you should always perfectly understand reasoning yourself, before you ask subagents to formalize.
+
+Frist write an informal proof in a markdown file. This should be a precise mathematical proof that lays out the full construction and proof of correctness, but not concerned with lean. Then continue with the formal proof. Don't give up until there are no more sorries. Whenever your strategy changes, immediately go back to the informal proof document and adapt it before trying it in lean. It is important that the informal proof document reflects your current strategy at every point in time.
+
+You have all the time you need for this. Take it step by step.
